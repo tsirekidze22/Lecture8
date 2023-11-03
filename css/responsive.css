@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+  header {
+    max-width: 647px;
+    width: 100%;
+  }
+
+  .btns-section {
+    display: none;
+  }
+
+  .text-wrapper p {
+    width: 337px;
+    line-height: 28.8px;
+  }
+
+  .cards-section {
+    padding: 0px 39px;
+    row-gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    padding: 0 15px;
+  }
+  .navigation {
+    display: none;
+  }
+
+  .cards-section {
+    padding: 0 15px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .burger-menu {
+    display: block;
+    cursor: pointer;
+  }
+}
